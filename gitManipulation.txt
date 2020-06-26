@@ -51,13 +51,14 @@ git merge namebranchyouwannamergetothebranchyouarein : Fast-forward             
 ---------------------------------------GitHub-----------------------------------------------
 1-Lets us set up hosted repos
 2-central online repos accessibles by multiple members
-
+1-creates a branch apart to collaborate with a cloned repo 
 Les Commandes
 git push wheretopushuphttps://github.com/CherifaHamroun/Quizz.git whichbranchtopushup : Be on the branch you wanna push
 git remote add aliasnameremrep https://github.com/CherifaHamroun/Quizz.git : Ajout d`un remote repo (on github)
-git push -u aliasorigin master 
+git push -u aliasorigin nameofthebranch
 git remote remove nameremrep
 git clone linkurl : when you clone no need to set alias or anything already done :)
 git remote -v : fetch          push
                 Bring code     pushing to :)
                 down
+
