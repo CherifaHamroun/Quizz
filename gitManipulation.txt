@@ -51,4 +51,6 @@ git merge namebranchyouwannamergetothebranchyouarein : Fast-forward             
 ---------------------------------------GitHub-----------------------------------------------
 1-Lets us set up hosted repos
 central online repos accessibles by multiple members
+Les Commandes
+git push wheretopushuphttps://github.com/CherifaHamroun/Quizz.git whichbranchtopushup
 
