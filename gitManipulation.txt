@@ -1,7 +1,7 @@
 1-Controler des versions 
 2-une branch c est ton ensemble de commits
-3-Different status => Modified(u) created or Modified
-                      Staged    Added 
+3-Different status => Modified(U) created or Modified
+                      Staging(M)    Added 
                       Commited
 Les Commandes :
 git config --global user.<> "": configuration nom user email => Fichier dans /home/cherifa .gitconfig
@@ -11,4 +11,5 @@ git add nameoffile : stages the Modified nameoffile
 git add . :stages all the modified files
 git rm --cached nameoffile: removes files from staging area 
 why don`t we commit directly ? : security :)
-git commit : commits all 
+git commit -m "Comment showed as version history": commits all => [master fb19023] fixed bug :[branch id] comment
+
