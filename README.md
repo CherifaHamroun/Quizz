@@ -26,7 +26,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Bootstrap installation
 https://bootstrap-vue.org/docs
-=======
-# Quizz
-Quizz app built with API and VueJS
->>>>>>> fcd2fd352160bfcb1c02c7805ecb2d67e9385d05

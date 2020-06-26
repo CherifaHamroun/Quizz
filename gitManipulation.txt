@@ -1,0 +1,14 @@
+1-Controler des versions 
+2-une branch c est ton ensemble de commits
+3-Different status => Modified(u) created or Modified
+                      Staged    Added 
+                      Commited
+Les Commandes :
+git config --global user.<> "": configuration nom user email => Fichier dans /home/cherifa .gitconfig
+git init : initialise le repertoire 
+git status : shows status
+git add nameoffile : stages the Modified nameoffile
+git add . :stages all the modified files
+git rm --cached nameoffile: removes files from staging area 
+why don`t we commit directly ? : security :)
+git commit : commits all 
