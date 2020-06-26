@@ -61,4 +61,4 @@ git clone linkurl : when you clone no need to set alias or anything already done
 git remote -v : fetch          push
                 Bring code     pushing to :)
                 down
-
+git pull remotealiasorigin wheretopullmaster
