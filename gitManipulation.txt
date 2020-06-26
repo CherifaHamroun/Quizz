@@ -3,7 +3,21 @@
 3-Different status => created (U)  Green
                       Modified(M)  Modified Yellow
                       Staging(M)    Added   Yellow
-                      Commited
+                      Commited      White Normal
+4-Undoing commits : Checkout commit Revert commit    Reset commit 
+                    Danger --       Danger -+        Danger ++
+                    Nothing         Doesn`t delete   deletes all
+                    happens         the commit       coming commits
+                    to the           history         (coming 
+                    commit           But it puts     to the commit 
+                    history          big X on it     we want to be back to)
+5-Branches : master is the stable version of the code , what is going to be published so we don~ want to add features on it or mess it up
+             new branch == isolated env to test new features 
+            --------------------Master branch-----------------------------------
+             start commit1 commit2                                 Merge commit
+                                   ----- feature branch -----------
+                                   commit1 commit2  ...............
+            Ceci napparait que dans la branche feature-1
 Les Commandes :
 git config --global user.<> "": configuration nom user email => Fichier dans /home/cherifa .gitconfig
 git init : initialise le repertoire 
@@ -14,5 +28,15 @@ git rm --cached nameoffile: removes files from staging area
 why don`t we commit directly ? : security :)
 git commit -m "Comment showed as version history": commits all => [master fb19023] fixed bug :[branch id] comment
                                                                   1 file changed, 4 insertions(+), 3 deletions(-)
+git log : shows commit history => click q to quit
+git log --oneline : hows brief history
+git checkout idcommit : see the code estate at a commit point
+git checkout master : reattaching to the current commit
+git revert idcommit : Scary Screen of a text editor, to quit shift+ctrl+wq , on commit history the commot is still in but a new id Revert "Comment" is there as last commit
+git reset idcommit : commit history to id commit but work still unchaged => to rewind completly => git reset idcommit --hard => disappeared and no return to it
+git branch namebranch:Branch creation
+git branch -a : shows all branches
+git checkout namebranch: switch to branch-1
+
 
 
