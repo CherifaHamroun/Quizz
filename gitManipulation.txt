@@ -17,8 +17,10 @@
              start commit1 commit2                                 Merge commit
                                    ----- feature branch -----------
                                    commit1 commit2  ...............
-            Ceci napparait que dans la branche feature-1
-6-merging branches 
+            Ceci napparait que dans la branche feature-1 , Sauf que I merged XD
+6-merging branches -be in the branch you wanna merge into
+                   -merge 
+7-conflicts are under =====HEAD >>>>>>> fix the conflicts and then when Scary Screen of a text editor appears dont do anything just , to quit shift+:+wq 
 Les Commandes :
 git config --global user.<> "": configuration nom user email => Fichier dans /home/cherifa .gitconfig
 git init : initialise le repertoire 
@@ -33,7 +35,7 @@ git log : shows commit history => click q to quit
 git log --oneline : hows brief history
 git checkout idcommit : see the code estate at a commit point
 git checkout master : reattaching to the current commit
-git revert idcommit : Scary Screen of a text editor, to quit shift+ctrl+wq , on commit history the commot is still in but a new id Revert "Comment" is there as last commit
+git revert idcommit : Scary Screen of a text editor, to quit shift+:+wq , on commit history the commot is still in but a new id Revert "Comment" is there as last commit
 git reset idcommit : commit history to id commit but work still unchaged => to rewind completly => git reset idcommit --hard => disappeared and no return to it
 git branch namebranch:Branch creation
 git branch -a : shows all branches
@@ -41,5 +43,9 @@ git checkout namebranch: switch to branch-1
 git branch -d namebranch : deletes a branch if it`s merged
 git branch -D namebranch : deletes a branch eventhough it`s not merged
 git checkout -b namebranch : creates and gets to new branch
+git merge namebranchyouwannamergetothebranchyouarein : Fast-forward                Recursive Strategy
+                                                        in the time                 the branche where to merge has changed (another feature was merged to it befire this one)
+                                                        you merged no 
+                                                        changes were made
 
 
