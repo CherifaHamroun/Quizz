@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # quizz
 
 ## Project setup
