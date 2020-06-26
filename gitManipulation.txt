@@ -18,6 +18,7 @@
                                    ----- feature branch -----------
                                    commit1 commit2  ...............
             Ceci napparait que dans la branche feature-1
+6-merging branches 
 Les Commandes :
 git config --global user.<> "": configuration nom user email => Fichier dans /home/cherifa .gitconfig
 git init : initialise le repertoire 
@@ -37,6 +38,8 @@ git reset idcommit : commit history to id commit but work still unchaged => to r
 git branch namebranch:Branch creation
 git branch -a : shows all branches
 git checkout namebranch: switch to branch-1
-
+git branch -d namebranch : deletes a branch if it`s merged
+git branch -D namebranch : deletes a branch eventhough it`s not merged
+git checkout -b namebranch : creates and gets to new branch
 
 
