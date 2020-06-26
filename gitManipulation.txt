@@ -1,3 +1,4 @@
+-------------------------------------Git---------------------------------------------
 1-Controler des versions 
 2-une branch c est ton ensemble de commits
 3-Different status => created (U)  Green
@@ -47,5 +48,7 @@ git merge namebranchyouwannamergetothebranchyouarein : Fast-forward             
                                                         in the time                 the branche where to merge has changed (another feature was merged to it befire this one)
                                                         you merged no 
                                                         changes were made
-
+---------------------------------------GitHub-----------------------------------------------
+1-Lets us set up hosted repos
+central online repos accessibles by multiple members
 
