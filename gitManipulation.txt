@@ -52,5 +52,9 @@ git merge namebranchyouwannamergetothebranchyouarein : Fast-forward             
 1-Lets us set up hosted repos
 central online repos accessibles by multiple members
 Les Commandes
-git push wheretopushuphttps://github.com/CherifaHamroun/Quizz.git whichbranchtopushup
-
+1----------------------------------------
+git remote add nameremrep https://github.com/CherifaHamroun/Quizz.git : Ajout d`un remote repo (on github)
+git push -u origin master 
+git remote remove nameremrep
+2----------------------------------------
+git push wheretopushuphttps://github.com/CherifaHamroun/Quizz.git whichbranchtopushup : Be on the branch you wanna push
