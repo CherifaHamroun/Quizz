@@ -1,5 +1,5 @@
 # quizz
-
+A quizz test with a counter of your mark (Questions come from an API) - Vue CLI App for learning purpose 
 ## Project setup
 ```
 npm install
